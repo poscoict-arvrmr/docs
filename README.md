@@ -1,2 +1,8 @@
-# docs
-우리끼리 보는 문서서
+# raspberry
+
+[시작프로그램 등록하기](https://poscoict-arvrmr.github.io/docs/howto/autostart.html)
+
+# electron app
+
+[패키징하기](https://poscoict-arvrmr.github.io/docs/howto/packaging.html)
+
