@@ -80,5 +80,43 @@ Downloading tmp-18082-1-SHASUMS256.txt-1.7.10
   • downloading     path=/home/jinia/.cache/electron-builder/block-map-builder/block-map-builder-v0.2.0-x64 url=https://github.com/develar/block-map-builder/releases/download/v0.2.0/block-map-builder-v0.2.0-linux-x64.7z
   • building        target=deb arch=x64 file=release/electron-react-boilerplate_1.0.0_amd64.deb
   • downloading     path=/home/jinia/.cache/electron-builder/fpm/fpm-1.9.2-2.3.1-linux-x86_64 url=https://github.com/electron-userland/electron-builder-binaries/releases/download/fpm-1.9.2-2.3.1-linux-x86_64/fpm-1.9.2-2.3.1-linux-x86_64.7z
-jinia@jin:~/Documents/GitHub/electron-react-boilerplate$ 니
+jinia@jin:~/Documents/GitHub/electron-react-boilerplate$ 
 ```
+
+release 디렉토리에 파일이 생성되어 있음. 이걸 실행하면 됨.
+
+```
+jinia@jin:~/Documents/GitHub/electron-react-boilerplate/release$ ls -al
+total 101300
+drwxr-xr-x  3 jinia jinia     4096 Jan  9 18:33 .
+drwxrwxr-x 12 jinia jinia     4096 Jan  9 18:32 ..
+-rw-r--r--  1 jinia jinia      454 Jan  9 18:05 electron-builder.yaml
+-rw-r--r--  1 jinia jinia 41658332 Jan  9 18:33 electron-react-boilerplate_1.0.0_amd64.deb
+-rwxr-xr-x  1 jinia jinia 62047705 Jan  9 18:25 electron-react-boilerplate-1.0.0-x86_64.AppImage
+-rw-r--r--  1 jinia jinia      416 Jan  9 18:33 latest-linux.yml
+drwxr-xr-x  4 jinia jinia     4096 Jan  9 18:21 linux-unpacked
+jinia@jin:~/Documents/GitHub/electron-react-boilerplate/release$ ls linux-unpacked/ -al
+total 130460
+drwxr-xr-x 4 jinia jinia     4096 Jan  9 18:21 .
+drwxr-xr-x 3 jinia jinia     4096 Jan  9 18:33 ..
+-rw-r--r-- 1 jinia jinia    24844 Dec 18 19:24 blink_image_resources_200_percent.pak
+-rw-r--r-- 1 jinia jinia       15 Dec 18 19:24 content_resources_200_percent.pak
+-rw-r--r-- 1 jinia jinia 12032534 Dec 18 19:24 content_shell.pak
+-rwxr-xr-x 1 jinia jinia 83392984 Dec 18 19:32 electron-react-boilerplate
+-rw-r--r-- 1 jinia jinia 10130560 Dec 18 19:24 icudtl.dat
+-rw-r--r-- 1 jinia jinia  2980664 Dec 18 19:32 libffmpeg.so
+-rwxr-xr-x 1 jinia jinia 21136056 Dec 18 19:32 libnode.so
+-rw-r--r-- 1 jinia jinia     1060 Dec 18 19:21 LICENSE.electron.txt
+-rw-r--r-- 1 jinia jinia  1775951 Dec 18 19:23 LICENSES.chromium.html
+drwxr-xr-x 2 jinia jinia     4096 Jan  9 18:21 locales
+-rw-r--r-- 1 jinia jinia   262947 Dec 18 19:24 natives_blob.bin
+-rw-r--r-- 1 jinia jinia   140979 Dec 18 19:26 pdf_viewer_resources.pak
+drwxr-xr-x 2 jinia jinia     4096 Jan  9 18:21 resources
+-rw-r--r-- 1 jinia jinia  1448208 Dec 18 19:24 snapshot_blob.bin
+-rw-r--r-- 1 jinia jinia   151829 Dec 18 19:24 ui_resources_200_percent.pak
+-rw-r--r-- 1 jinia jinia    57761 Dec 18 19:24 views_resources_200_percent.pak
+jinia@jin:~/Documents/GitHub/electron-react-boilerplate/release$ 
+jinia@jin:~/Documents/GitHub/electron-react-boilerplate/release$ ./linux-unpacked/electron-react-boilerplate 
+```
+
+
