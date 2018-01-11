@@ -1,5 +1,5 @@
 
-npm run dev on window (32bit).
+npm run dev on windows 7 (32bit).
 
 
 <pre>
@@ -40,5 +40,11 @@ Failed to fetch extension, trying 0 more times
 
 
 ## looking for solutions 
-- https://github.com/chentsulin/electron-react-boilerplate/issues/377
 - https://github.com/chentsulin/electron-react-boilerplate/issues/268
+    - <i>electron-devtools-installer is a problem</i> :: I have it installed
+    - <i>cannot connect chrome store</i> :: via normal chrome process, it opens on my laptop
+- https://github.com/chentsulin/electron-react-boilerplate/issues/377
+    - <i>try PORT=1212 npm run dev</i> :: couldn't find a command to use instaed of PORT=1212 on windows..
+    - <i>electron-devtools-installer and corp proxy not working nice together</i> :: probably my problem at this point..
+    - 
+
