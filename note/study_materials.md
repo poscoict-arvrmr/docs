@@ -29,7 +29,7 @@ My demo: https://github.com/poscoict-arvrmr/edit-boilerplate
 
   1. Create xxx.js file on /app/componetnts folder
     - This file should include all the components you want to draw in the page
-    - Create xxx.css file if needed, and import .css inside .js 
+    - Create xxx.css file (if needed), and import xxx.css inside xxx.js 
   2. Create xxx.js file on /app/containers folder
     - This file makes xxx as a page
     - Should import app/components/xxx.js
@@ -37,7 +37,7 @@ My demo: https://github.com/poscoict-arvrmr/edit-boilerplate
     - This file allows the page transition to happen (via hyperlink)
     - make sure you import /app/containers/xxx.js (not from /components folder)
     - Choose the path url names for xxx Page
-  4. Make sure you use that xxx url you just defined in 'routes.js' in any other pages when you want to redirect to xxx page via Link
+  4. Make sure you use that xxx url you just defined in 'routes.js' in any other pages, when you want to redirect to xxx page via hyperlink or button..
 
 
 ### :star: Redux
@@ -113,11 +113,11 @@ store.dispatch(setCount({ count: -100 }));
 ```
 
 
-- ACTION GENERATORS: define functions here, declare any data parameters that will be used in each function
-- DISPATCH: call the ACTION GENERATOR w/ input if needed
-- REDUCER: (switch/case/return chunk) according ACTION GENERATOR has type: 'name' --> REDUCER matches this 'name' within the switch loop --> matching ACTION GENERATOR function is executed --> return the certain value
+- ACTION GENERATORS: define functions that will be dispatched, declare any data parameters that will be used in each function
+- DISPATCH: call the action (that are previously defined w/ ACTION GENERATOR)
+- REDUCER: (switch/case/return chunk) see matching ACTION GENERATOR's [type: 'name'] --> REDUCER searches this 'name' within its switch loop --> matching ACTION GENERATOR function is executed --> returns the certain value
 
-<b> DISPATCH ----> ACTION GENERATORS <------> REDUCER </b>
+<b> DISPATCH ----> (ACTION GENERATORS) ------> REDUCER </b>
 
 
 GREAT IMAGE TO UNDERSTAND THE BENEFIT OF REDUX:
