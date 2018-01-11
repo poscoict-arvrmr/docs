@@ -60,7 +60,7 @@ State is changed by functions.
 
 #### example (courtesy of Udemy The Complete React: 2nd edition)
 
-<prev>
+```
 import { createStore } from 'redux';
     
 // ACTION GENERATORS - functions that return action objects
@@ -110,8 +110,8 @@ store.dispatch(incrementCount({ incrementBy: 5 }))
 store.dispatch(incrementCount());
 store.dispatch(decrementCount({ decrementBy: 10 }));
 store.dispatch(setCount({ count: -100 }));
+```
 
-</prev>
 
 - ACTION GENERATORS: define functions here, declare any data parameters that will be used in each function
 - DISPATCH: call the ACTION GENERATOR w/ input if needed
