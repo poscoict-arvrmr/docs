@@ -1,6 +1,6 @@
 
 npm run dev on windows 7 (32bit).
-
+- does not show React, Redux tab on developter tools. Shows the tabs until Devtron.
 
 <pre>
 > electron-react-boilerplate@0.12.0 start-main-dev C:\Users\박 소선\Desktop\demo\elect-react-bp-test
@@ -46,5 +46,5 @@ Failed to fetch extension, trying 0 more times
 - https://github.com/chentsulin/electron-react-boilerplate/issues/377
     - <i>try PORT=1212 npm run dev</i> :: couldn't find a command to use instaed of PORT=1212 on windows..
     - <i>electron-devtools-installer and corp proxy not working nice together</i> :: probably my problem at this point..
-    - 
+ 
 
