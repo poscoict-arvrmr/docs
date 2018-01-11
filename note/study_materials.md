@@ -1,6 +1,6 @@
-### Study links/references
+## Study links/references
 
-#### React & Redux
+### React & Redux
 1. (korean) https://velopert.com
     - By velopert, a front-end developer based in South Korea
     - Explanations, Youtube links, etc.
@@ -18,14 +18,14 @@
         - did not go through the functions that I wanted to try out, ex) react-router
 
 
-### Study notes
-#### React-Router (not react-router-redux)
+## Study notes
+### :star: React-Router (not react-router-redux)
 My demo: https://github.com/poscoict-arvrmr/edit-boilerplate
 - Containers folder
 - Components folder
 - routes.js file
 
-##### When you want to create a new page called xxx
+#### When you want to create a new page called xxx
 
   1. Create xxx.js file on /app/componetnts folder
     - This file should include all the components you want to draw in the page
@@ -40,9 +40,9 @@ My demo: https://github.com/poscoict-arvrmr/edit-boilerplate
   4. Make sure you use that xxx url you just defined in 'routes.js' in any other pages when you want to redirect to xxx page via Link
 
 
-#### Redux
-
-##### Understanding what Redux is..
+### :star: Redux
+#### Understanding what Redux is..
+(thanks to https://medium.com/dailyjs/when-do-i-know-im-ready-for-redux-f34da253c85f , Udemy, velopert, and more)
 
 Redux is a state container.
 
@@ -51,12 +51,73 @@ State means data.
 State is changed by functions.
 
 - Action: information about event :: static information about event that initiates state change
-  Dispatching action (1) --> Update state (2)
+  - Dispatching action (1) --> Update state (2)
 
 - Reducer: When action is dispatched, it is sent to REDUCER
-  Pure function, never mutates the store, returns same output
+  - Pure function, never mutates the store, returns same output
 
 - Store: 'application state' stored as objects in STORE
+
+#### example (courtesy of Udemy The Complete React: 2nd edition)
+
+<prev>
+import { createStore } from 'redux';
+    
+// ACTION GENERATORS - functions that return action objects
+const incrementCount = ({ incrementBy = 1 } = {}) => ({
+  type: 'INCREMENT',
+  incrementBy
+});
+const decrementCount = ({ decrementBy = 1 } = {}) => ({
+  type: 'DECREMENT',
+  decrementBy
+});
+const setCount = ({ count }) => ({
+  type: 'SET',
+  count
+});
+
+// REDUCERS
+// 1. Reducers are pure functions
+// 2. Never change state or actiton
+
+const countReducer = (state = { count: 0 }, action) => {
+  switch (action.type) {
+    case 'INCREMENT':
+      return {
+        count: state.count + action.incrementBy
+      };
+    case 'DECREMENT':
+      return {
+        count: state.count - action.decrementBy
+      };
+    case 'SET':
+      return {
+        count: action.count
+      };
+      default:
+      return state;
+  }
+};
+
+const store = createStore(countReducer);
+const unsubscribe = store.subscribe(() => {
+  console.log(store.getState());
+});
+
+//DISPATCH
+store.dispatch(incrementCount({ incrementBy: 5 }))
+store.dispatch(incrementCount());
+store.dispatch(decrementCount({ decrementBy: 10 }));
+store.dispatch(setCount({ count: -100 }));
+
+</prev>
+
+- ACTION GENERATORS: define functions here, declare any data parameters that will be used in each function
+- DISPATCH: call the ACTION GENERATOR w/ input if needed
+- REDUCER: (switch/case/return chunk) according ACTION GENERATOR has type: 'name' --> REDUCER matches this 'name' within the switch loop --> matching ACTION GENERATOR function is executed --> return the certain value
+
+<b> DISPATCH ----> ACTION GENERATORS <------> REDUCER </b>
 
 
 GREAT IMAGE TO UNDERSTAND THE BENEFIT OF REDUX:
