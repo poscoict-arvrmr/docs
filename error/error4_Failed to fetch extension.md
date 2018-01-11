@@ -37,3 +37,8 @@ Failed to fetch extension, trying 0 more times
 Failed to fetch extension, trying 1 more times
 Failed to fetch extension, trying 0 more times
 </pre>
+
+
+## looking for solutions 
+- https://github.com/chentsulin/electron-react-boilerplate/issues/377
+- https://github.com/chentsulin/electron-react-boilerplate/issues/268
