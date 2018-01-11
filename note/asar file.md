@@ -17,7 +17,8 @@ npm run package 를 실행하면.. 다음과 같은 로그를 통해 어떤 파�
   console.log('찍혀라[main.dev]', __dirname);
   mainWindow.loadURL(`file://${__dirname}/app.html`);
 </pre>
-__dirname 값이 뭔지 알아 내려고 console log를 추가해봄 (main.dev.js 파일의 전후 로그추가함)
+
+```__dirname``` 값이 뭔지 알아 내려고 console log를 추가해봄 (main.dev.js 파일의 전후 로그추가함)
 
 <pre>
 jinia@jin:~/Documents/GitHub/electron-react-boilerplate$ <b>./release/electron-react-boilerplate-1.0.0-x86_64.AppImage </b>
@@ -27,7 +28,7 @@ jinia@jin:~/Documents/GitHub/electron-react-boilerplate$ <b>./release/electron-r
 찍혀라[main.dev] 로딩이 되어나벼
 jinia@jin:~/Documents/GitHub/electron-react-boilerplate$ 
 ```
-<pre>
+</pre>
 
 
 <b>release/linux-unpacked</b> 위치에서 file과 폴더 중에 app.asar 파일이 있는지 확인된다.
