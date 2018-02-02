@@ -9,7 +9,7 @@ jinia@jin:~$ <b>npm -v</b>
 jinia@jin:~$ <b>git --version</b>
 git version 2.14.1
 jinia@jin:~$ 
-<pre>
+</pre>
 
 소스는 github에서 가져오고.. 
 <pre>
