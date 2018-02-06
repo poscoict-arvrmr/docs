@@ -11,3 +11,5 @@
 # note
 
 [Study Materials](https://poscoict-arvrmr.github.io/docs/note/study_materials.html)
+
+[해상도 참고](https://poscoict-arvrmr.github.io/docs/note/resolution.html)
