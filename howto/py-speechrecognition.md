@@ -9,7 +9,7 @@ $ sudo pip3 install SpeechRecognition
 
 # pyaudio 패키지설치
 $ sudo pip3 install pyaudio
-  이게 에러가 나면
+# 이게 에러가 나면
 $ sudo apt-get install portaudio19-dev
 $ sudo pip3 install pyaudio
 $ sudo pip3 install pyaudio --upgrade
@@ -18,6 +18,7 @@ $ sudo pip3 install pyaudio --upgrade
 ```
 
 **실행예시코드**
+_main.py_
 ```python
 import speech_recognition as sr
 
@@ -28,4 +29,11 @@ with sr.Microphone() as source:
 
 with open("recording.wav", "wb") as f:
 	f.write(audio.get_wav_data())
+```
+
+**코드실행**
+
+```bash
+# main.py 있는 폴더로 cd
+$ python3 main.py
 ```
