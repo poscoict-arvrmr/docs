@@ -1,11 +1,13 @@
+
+
+참고 사이트
+ - http://cssmediaqueries.com/overview.html
+ 
 css의 media queries를 적용하려고 일단 2가지로 테스트해봄. 
 
-참고 사이트 
- - http://cssmediaqueries.com/overview.html
-
-* [default](./resolution.html#defalut)
-
-* [vufine+](./resolution.html#vufine)
+* [default](./resolution.html#defalut) 
+ 
+* [vufine+](./resolution.html#vufine) 
 
 # default
 
