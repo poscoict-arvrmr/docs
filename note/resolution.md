@@ -4,6 +4,8 @@ css의 media queries를 적용하려고 일단 2가지로 테스트해봄.
 * default : display 장치가 없는 경우 
 window.outerWidth : 656
 window.outerHeight : 352
+window.screen.width : 656
+window.screen.height : 416
 
 https://poscoict-arvrmr.github.io/images/default_1.png
 ![Image](../images/default_1.png)
@@ -18,6 +20,8 @@ https://poscoict-arvrmr.github.io/images/default_1.png
 * vufine : 단안 dispaly 장치
 window.outerWidth : 1184
 window.outerHeight : 560
+window.screen.width : 1184
+window.screen.height : 624 
 
 ![Image](../images/vufine_1.png)
 ![Image](../images/vufine_2.png)

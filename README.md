@@ -12,4 +12,15 @@
 
 [Study Materials](https://poscoict-arvrmr.github.io/docs/note/study_materials.html)
 
-[해상도 참고](https://poscoict-arvrmr.github.io/docs/note/resolution.html)
+
+---
+
+# error
+
+# howto
+
+* [Python 음성인식](https://poscoict-arvrmr.github.io/docs/howto/py-speechrecognition.html)
+
+# note
+
+* [해상도 참고](https://poscoict-arvrmr.github.io/docs/note/resolution.html)
