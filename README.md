@@ -1,6 +1,6 @@
 # raspberry
 
-[라즈베리의 시작프로그램 등록하기](https://poscoict-arvrmr.github.io/docs/howto/autostart.html)
+[라즈베리의 시작프로그램 등록하기](https://poscoict-arvrmr.github.io/docs/howto/autostart.html)  
 [라즈베리 쉘 프로그래밍](https://poscoict-arvrmr.github.io/docs/howto/autostart_shell.html)
 
 # electron app
