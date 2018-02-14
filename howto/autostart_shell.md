@@ -107,3 +107,13 @@ echo "launch AppImage"
 
 pi@raspberrypi:~ $ 
 ```
+
+# 파일
+
+```bash
+pi@raspberrypi:~ $ ls -al second*
+-rwxr-xr-x 1 pi pi 84462543  2월 12 16:38 second-1.0.0-armv7l.AppImage
+-rwxr-xr-x 1 pi pi     1134  2월 12 16:40 second-1.0.0-gesture.py
+-rwxr-xr-x 1 pi pi      771  2월 12 18:17 second.sh
+pi@raspberrypi:~ $ 
+```
