@@ -5,6 +5,19 @@
 
 * second.sh
 
+# 파일
+
+3개 파일의 위치는 default 로...    
+즉 ```/home/pi``` 위치에 있다는 가정하에... 쉘 프로그램이 작성되었음. 
+
+```bash
+pi@raspberrypi:~ $ ls -al second*
+-rwxr-xr-x 1 pi pi 84462543  2월 12 16:38 second-1.0.0-armv7l.AppImage
+-rwxr-xr-x 1 pi pi     1134  2월 12 16:40 second-1.0.0-gesture.py
+-rwxr-xr-x 1 pi pi      771  2월 12 18:17 second.sh
+pi@raspberrypi:~ $ 
+```
+
 # 개발PC환경
 
  * npm
@@ -108,12 +121,3 @@ echo "launch AppImage"
 pi@raspberrypi:~ $ 
 ```
 
-# 파일
-
-```bash
-pi@raspberrypi:~ $ ls -al second*
--rwxr-xr-x 1 pi pi 84462543  2월 12 16:38 second-1.0.0-armv7l.AppImage
--rwxr-xr-x 1 pi pi     1134  2월 12 16:40 second-1.0.0-gesture.py
--rwxr-xr-x 1 pi pi      771  2월 12 18:17 second.sh
-pi@raspberrypi:~ $ 
-```
