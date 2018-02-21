@@ -1,9 +1,9 @@
 
-"electron-react-boilerplate"
--> no such file or directory
+"electron-react-boilerplate" 에서  
+```npm run package``` 를 실행하면 no such file or directory 오류가 발생함. 
 
 
-```
+```bash
 jinia@jin:~/Documents/GitHub/electron-react-boilerplate$ npm run package
 
 > electron-react-boilerplate@0.13.0 package /home/jinia/Documents/GitHub/electron-react-boilerplate

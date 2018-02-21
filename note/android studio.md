@@ -1,9 +1,10 @@
 
 참고사이트
- - https://developer.android.com/studio/install.html
+ - https://developer.android.com/studio/index.html  ( 다운로드 )
+ - https://developer.android.com/studio/install.html ( 설치가이드 )
 
 
-다운로드 하고서
+다운로드 하고서 ( android-studio-ide-<i>171.4443003-linux<i>.zip 파일 )
 
 ```bash
 jinia@jin:~/Downloads$ ls -al
@@ -11,7 +12,9 @@ jinia@jin:~/Downloads$ ls -al
 jinia@jin:~/Downloads$ 
 ```
 
-압축 풀면
+압축 풀면  
+( ~/Desktop/android-studio 에 압축 풀었음. )
+
 ```bash
 jinia@jin:~/Downloads$ cd ~/Desktop/
 jinia@jin:~/Desktop$ ls -al
@@ -54,7 +57,10 @@ drwxrwxr-x 3 jinia jinia  4096 Nov 10 11:51 lldb
 jinia@jin:~/Desktop$ 
 ```
 
-android sudio 실행.  
+
+android sudio 실행하면 됨. 
+~/Desktop/android-studio/bin/studio.sh 을 실행하면 됨.  
+최초 실행시에는 install 과정이 있으나, 두번째는 바로 실행됨. 
 
 ```bash
 jinia@jin:~/Desktop$ cd android-studio/
@@ -129,3 +135,5 @@ Android SDK is up to date.
 Feb 12, 2018 3:39:27 PM com.google.api.client.googleapis.services.AbstractGoogleClient <init>
 WARNING: Application name is not set. Call Builder#setApplicationName.
 ```
+
+

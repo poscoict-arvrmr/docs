@@ -1,6 +1,11 @@
-docs/error/error1.md
+"electron-react-boilerplate"가 업데이트 되었길래 ```git pull``` 로 갱신했더니  
+[docs/error/error1.md](./error1_no such file or directory.html) 오류가 발생되지 않음. 
 
-```
+```npm run package``` 실행 후에  
+```release``` 디렉토리의 실행파일을 찾아서 실행하면 app이 실행됨. 
+
+
+```bash
 jinia@jin:~/Documents/GitHub/electron-react-boilerplate$ npm run package
 
 > electron-react-boilerplate@0.13.0 package /home/jinia/Documents/GitHub/electron-react-boilerplate
@@ -85,7 +90,7 @@ jinia@jin:~/Documents/GitHub/electron-react-boilerplate$
 
 release 디렉토리에 파일이 생성되어 있음. 이걸 실행하면 됨.
 
-```
+```bash
 jinia@jin:~/Documents/GitHub/electron-react-boilerplate/release$ ls -al
 total 101300
 drwxr-xr-x  3 jinia jinia     4096 Jan  9 18:33 .
