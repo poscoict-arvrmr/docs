@@ -104,8 +104,18 @@ def JAR_DIR = 'build/java/vuforia'
 dependencies {
     compile files("$VUFORIA_SDK_DIR/$JAR_DIR/Vuforia.jar")
 }
+```
+
+다음과 같이 수정했음. 각자 환경에 맞게 지정하면 됨. 
 
 ```
+// 수정 전
+//def VUFORIA_SDK_DIR = '../../..'
+// 수정 후 : vuforia sdk를 다운로드 해서 압축 푼 위치여야 함. 
+def VUFORIA_SDK_DIR = '../../../Android/vuforia-sdk-android-7-0-47'
+```
+
+
 
 2018.02.23 일 기준으로 
 Android Studio에서 Project를 열어서 실행시켰더니 Failed to initialize Vuforia 에러가 발생했음. 
