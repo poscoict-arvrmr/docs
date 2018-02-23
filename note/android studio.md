@@ -1,7 +1,7 @@
 
 참고사이트
- - https://developer.android.com/studio/index.html  ( 다운로드 )
- - https://developer.android.com/studio/install.html ( 설치가이드 )
+ - [https://developer.android.com/studio/index.html](https://developer.android.com/studio/index.html)  ( Android Studio 다운로드 )
+ - [https://developer.android.com/studio/install.html](https://developer.android.com/studio/install.html) ( Android Studio 설치가이드 )
 
 
 다운로드 하고서 ( android-studio-ide-<i>171.4443003-linux<i>.zip 파일 )
@@ -59,7 +59,7 @@ jinia@jin:~/Desktop$
 
 
 android sudio 실행하면 됨. 
-~/Desktop/android-studio/bin/studio.sh 을 실행하면 됨.  
+```~/Desktop/android-studio/bin/studio.sh``` 을 실행하면 됨.  
 최초 실행시에는 install 과정이 있으나, 두번째는 바로 실행됨. 
 
 ```bash
@@ -137,3 +137,11 @@ WARNING: Application name is not set. Call Builder#setApplicationName.
 ```
 
 
+두번째 실행시에는 딱히 설치는 없는듯함. 
+
+![Image](../images/android.png)
+
+Android Studio가 실행되면.. 프로젝트를 생성하거나, 프로젝트를 불러올 수 있음.  
+Configure 를 통해 android sdk 추가 설치 및 editor 설정 등이 가능함.
+
+![Image](../images/android_studio_start.png)
