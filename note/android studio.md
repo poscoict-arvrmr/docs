@@ -139,9 +139,15 @@ WARNING: Application name is not set. Call Builder#setApplicationName.
 
 두번째 실행시에는 딱히 설치는 없는듯함. 
 
-![Image](../images/android.png)
+![Image](../images/android_sh.png)
 
 Android Studio가 실행되면.. 프로젝트를 생성하거나, 프로젝트를 불러올 수 있음.  
 Configure 를 통해 android sdk 추가 설치 및 editor 설정 등이 가능함.
 
 ![Image](../images/android_studio_start.png)
+
+프로젝트 생성한 후, 다음과 같은 에러가 발생할 수 있음.  
+사내보안정책에 의해 뭔가 차단된 것 같으니 정보시스템팀 통해서 조치해야함.  
+![Image](../images/android_studio_error_appcompat.png)
+
+
