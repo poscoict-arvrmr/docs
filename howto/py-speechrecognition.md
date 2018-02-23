@@ -1,5 +1,11 @@
 ## SpeechRecognition 음성인식
 
+0. 음성인식 + 제스쳐 + 브로커 + second app
+- MQTT broker (...246.244 <code> $ mosca -v | pino </code>) ==> 
+- gesture.py (<code> $ python gesture.py </code>), wit.py (<code> $ python wit.py </code>) ==> 
+- second app (<code> $ npm run dev </code>)
+
+
 1. Raspberry Pi Virtual Assistant book code example
 
 **파이썬기본패키지설치**
