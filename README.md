@@ -4,7 +4,7 @@ https://github.com/poscoict-arvrmr/third 과 관련된 참고 자료입니다.
 
 [리눅스에 android studio 설치](https://poscoict-arvrmr.github.io/docs/note/android%20studio.html)  
 [vuforia 예제 실행](https://poscoict-arvrmr.github.io/docs/note/vuforia.html)  
-[Android Studio에서 Git사용하기](https://poscoict-arvrmr.github.io/docs/note/git.html)
+[Android Studio에서 Git사용하기](https://poscoict-arvrmr.github.io/docs/note/android_studio_git.html)
 
 
 # second app
