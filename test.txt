@@ -1,0 +1,1 @@
+{"ID":"equi1","name":"보호계전기 #1","width":30,"height":300}
